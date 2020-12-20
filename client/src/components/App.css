@@ -26,6 +26,12 @@
 
 @media screen and (min-width: 1000px) {
   .wrapper {
-    width: 70%;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    width: 50%;
   }
 }

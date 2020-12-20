@@ -83,6 +83,7 @@ export default function App() {
       <Header />
       <div className='wrapper'>
         <Sidebar onParamChange={setParam} getTotalAmount={getTotalAmount} search={search} onSearchChange={setSearch} startSearch={startSearch}/>
+        {/* Render Spinner if the data is loading, otherwise render Names */}
         {isLoading? <Spinner/> : <Names data={data}/>}
       </div>
     </React.Fragment>

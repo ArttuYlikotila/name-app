@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  margin: auto;
+  margin-top: 1em;
+  align-items: stretch;
+}
+
+@media screen and (max-width: 650px) {
+  .wrapper {
+    width: 100%;
+    margin-left: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .wrapper {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .wrapper {
+    width: 70%;
+  }
+}

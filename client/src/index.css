@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  color: #686363;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Bebas Neue';
+  color: black;
+}
+
+@media screen and (max-width: 320px) {
+  :root {
+    font-size: 7.8px;
+  }
+}
+
+@media screen and (min-width: 321px) {
+  :root {
+    font-size: 8.5px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  :root {
+    font-size: 9.6px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  :root {
+    font-size: 16px;
+  }
+}

@@ -6,6 +6,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 const api = require('./routes/router');
 
+app.use(express.json());
 app.use('/api/', api);
 
 if (process.env.NODE_ENV !== 'production') {

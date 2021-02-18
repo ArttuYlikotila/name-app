@@ -27,7 +27,7 @@ export default function App() {
       else {
         setError(result.error.response.statusText);
       }
-    }).then(setIsLoading(false));
+    }).then(() => setIsLoading(false));
   }, [param]);
 
   // Get a number of total amount of names in data from backend
@@ -37,7 +37,7 @@ export default function App() {
     callBackend(routes.TOTAL_AMOUNT).then(result => {
       // Show a message about the total amount of names returned by backend
       totalAmount(result.namesTotal);
-    }).then(setIsLoading(false));
+    }).then(() => setIsLoading(false));
   }
 
   // Start searching for data about a name if a name is given
@@ -67,7 +67,7 @@ export default function App() {
       else {
         errorMsg(result.error.response.data.error);
       }
-    }).then(setIsLoading(false));
+    }).then(() => setIsLoading(false));
     setSearch('');
   }
 

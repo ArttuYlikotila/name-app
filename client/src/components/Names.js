@@ -1,16 +1,7 @@
 import React from 'react';
 import './Names.css';
 
-export default function Names(props) {
-  // If data is not yet ready, return notification about it to prevent crash
-  if (!props.data.names) {
-    return (
-      <div className='card w-50 mx-auto'>
-        <div className='card-body'>No data yet</div>
-      </div>
-    );
-  }
-  
+export default function Names(props) {  
   // Map the data and return row-elements populated with names and amounts from data
   const names = props.data.names.map((row) => {
     return (

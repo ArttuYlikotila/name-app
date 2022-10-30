@@ -10,11 +10,6 @@ Front-end is made using Create React App. Front-end is only responsible for fetc
 
 Styling is made with Bootstrap 4 and custom CSS.
 
-## Link to app
-Deployed version of the app running in Heroku:
-
-https://simple-name-app.herokuapp.com/
-
 ## Installation
 
 ### Pre-requisites:
